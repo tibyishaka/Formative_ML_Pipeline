@@ -160,6 +160,5 @@ Manual API testing commands are in [sp500_project/Testing.md](sp500_project/Test
 
 ## Notes
 
-- Never commit `.env`; only `.env.example` (with no real secrets) is tracked.
 - The dataset CSV and the trained model are the two artifacts the pipeline depends on but
   does not regenerate on every run, so keep them in place once produced.
